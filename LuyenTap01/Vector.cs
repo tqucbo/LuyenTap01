@@ -3,15 +3,19 @@ using System.Runtime.Intrinsics;
 namespace NameSpaceVector
 {
     public delegate void hienThiThongBao(string thongBao);
+
     class Vector
     {
         public double a;
+
         public double b;
+
         public Vector(double a, double b)
         {
             this.a = a;
             this.b = b;
         }
+
         public Vector()
         {
             this.a = 0;
@@ -31,6 +35,7 @@ namespace NameSpaceVector
         //     return $"Vecto co toa do ({a}, {b})";
         // }
         public static void xuatThongTin(string s) => Console.WriteLine(s);
+
         // public static Vector tinhTong2Vector(Vector v1, Vector v2)
         // {
         //     Vector v3 = new Vector();
@@ -39,6 +44,9 @@ namespace NameSpaceVector
         //     return v3;
         // }
         public static Vector tinhTong2Vector(Vector v1, Vector v2) => new Vector(v1.a + v2.a, v1.b + v2.b);
+
+        public static Vector operator +(Vector v1, Vector v2) => new Vector(v1.a + v2.a, v1.b + v2.b);
+
         // public static Vector tinhHieu2Vector(Vector v1, Vector v2)
         // {
         //     Vector v3 = new Vector();
@@ -47,6 +55,8 @@ namespace NameSpaceVector
         //     return v3;
         // }
         public static Vector tinhHieu2Vector(Vector v1, Vector v2) => new Vector(v1.a - v2.a, v1.b - v2.b);
+
+        public static Vector operator -(Vector v1, Vector v2) => new Vector(v1.a - v2.a, v1.b - v2.b);
 
         // public static double tinhTichVoHuong2Vector(Vector v1, Vector v2)
         // {
