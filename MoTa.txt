@@ -14,3 +14,6 @@ LUYỆN TẬP TỔNG HỢP
     -   Case "a" hoặc "all" sẽ in ra kết quả của cả 3 phương thức.
     -   Case "exit" sẽ thoát khỏi switch - case, 
         nếu không có câu lệnh gì sau đó thì sẽ thoát luôn chương trình.
+8.  Tạo 1 biến có kiểu dữ liệu delegate chuyên để hiển thị thông báo.
+    Dùng kiểu dữ liệu delegate Action, delegate Func và biểu thức Lambda để viết lại các phương thức
+    tính tổng, tính hiệu và tích vô hướng của 2 Vector.
