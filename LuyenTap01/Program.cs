@@ -7,10 +7,10 @@ class Program
     {
         Vector v1 = new Vector();
         v1.nhapVector();
-        v1.xuatVector();
+        Console.WriteLine(v1.xuatVector());
         Vector v2 = new Vector();
         v2.nhapVector();
-        v2.xuatVector();
+        Console.WriteLine(v2.xuatVector());
         Vector v3 = Vector.tinhTong2Vector(v1, v2);
         Console.WriteLine($"Tong 2 Vector vua nhap : " + v3.xuatVector());
         Vector v4 = Vector.tinhHieu2Vector(v1, v2);

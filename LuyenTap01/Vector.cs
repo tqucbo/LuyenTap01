@@ -45,11 +45,13 @@ namespace NameSpaceVector
         {
             double kq;
             double doDaiV1 = Math.Sqrt(v1.a * v1.a + v1.b * v1.b);
-            double doDaiV2 = Math.Sqrt(v1.a * v1.a + v1.b * v1.b);
+            Console.WriteLine(doDaiV1);
+            double doDaiV2 = Math.Sqrt(v2.a * v2.a + v2.b * v2.b);
+            Console.WriteLine(doDaiV2);
             double cosV1V2 = (v1.a * v2.a + v1.b * v2.b) / (Math.Sqrt(v1.a * v1.a + v1.b * v2.b) + Math.Sqrt(v2.a * v2.a + v2.b * v2.b));
+            Console.WriteLine(cosV1V2);
             kq = doDaiV1 * doDaiV2 * cosV1V2;
             return kq;
         }
-
     }
 }
