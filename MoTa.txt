@@ -1,1 +1,4 @@
 1. Định nghĩa đối tượng hoặc cấu trúc Vector 2 chiều có 2 toạ độ là a và b.
+2. Cho người dùng nhập thông tin 1 Vector và in ra màn hình.
+3. Tạo phương thức tính tổng 2 Vector, hiệu 2 Vector và tích vô hướng của 2 Vector.
+4. Cho người dùng nhập thông tin 2 Vector v1 và v2, sau đó thực hiện phép tính và in ra màn hình.

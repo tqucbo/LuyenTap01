@@ -1,0 +1,15 @@
+D:\BIDC\LuyenTap01\LuyenTap01\bin\Debug\net6.0\LuyenTap01.exe
+D:\BIDC\LuyenTap01\LuyenTap01\bin\Debug\net6.0\LuyenTap01.deps.json
+D:\BIDC\LuyenTap01\LuyenTap01\bin\Debug\net6.0\LuyenTap01.runtimeconfig.json
+D:\BIDC\LuyenTap01\LuyenTap01\bin\Debug\net6.0\LuyenTap01.dll
+D:\BIDC\LuyenTap01\LuyenTap01\bin\Debug\net6.0\LuyenTap01.pdb
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.csproj.AssemblyReference.cache
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.GeneratedMSBuildEditorConfig.editorconfig
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.AssemblyInfoInputs.cache
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.AssemblyInfo.cs
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.csproj.CoreCompileInputs.cache
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.dll
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\refint\LuyenTap01.dll
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.pdb
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\LuyenTap01.genruntimeconfig.cache
+D:\BIDC\LuyenTap01\LuyenTap01\obj\Debug\net6.0\ref\LuyenTap01.dll
