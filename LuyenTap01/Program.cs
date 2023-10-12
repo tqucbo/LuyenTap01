@@ -29,18 +29,33 @@ class Program
             case "1":
                 Vector v3 = Vector.tinhTong2Vector(v1, v2);
                 Console.WriteLine($"Tong 2 Vector vua nhap : " + v3.xuatVector());
-                break;
+                // break;
+                goto L1;
             case "2":
                 Vector v4 = Vector.tinhHieu2Vector(v1, v2);
                 Console.WriteLine($"Tong 2 Vector vua nhap : " + v4.xuatVector());
-                break;
+                // break;
+                goto L1;
             case "3":
                 double tichVoHuong = Vector.tinhTichVoHuong2Vector(v1, v2);
                 Console.WriteLine($"Tich vo huong 2 Vector vua nhap : {tichVoHuong}");
+                // break;
+                goto L1;
+            case "all":
+            case "a":
+                v3 = Vector.tinhTong2Vector(v1, v2);
+                Console.WriteLine($"Tong 2 Vector vua nhap : " + v3.xuatVector());
+                v4 = Vector.tinhHieu2Vector(v1, v2);
+                Console.WriteLine($"Tong 2 Vector vua nhap : " + v4.xuatVector());
+                tichVoHuong = Vector.tinhTichVoHuong2Vector(v1, v2);
+                Console.WriteLine($"Tich vo huong 2 Vector vua nhap : {tichVoHuong}");
+                // break;
+                goto L1;
+            case "exit":
                 break;
             default:
                 Console.WriteLine("Khong co lua chon nay.");
-                break;
+                goto L1;
         }
     }
 }

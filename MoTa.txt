@@ -1,6 +1,16 @@
+LUYỆN TẬP TỔNG HỢP
+
 1.  Định nghĩa đối tượng hoặc cấu trúc Vector 2 chiều có 2 toạ độ là a và b.
 2.  Cho người dùng nhập thông tin 1 Vector và in ra màn hình.
 3.  Tạo phương thức tính tổng 2 Vector, hiệu 2 Vector và tích vô hướng của 2 Vector.
 4.  Cho người dùng nhập thông tin 2 Vector v1 và v2, sau đó thực hiện phép tính và in ra màn hình.
 5.  Thay vì xuất kết quả cả 3 phương thức, dùng Switch - Case 
     hoặc If - Else để người dùng chọn 1 trong 3 phương thức để xuất ra màn hình.
+    Case "default" sẽ hiển thị thông báo không có lựa chọn này.
+6.  Thay vì để chương trình tự ngắt sau khi in ra kết quả của phương thức được lựa chọn,
+    đặt nhãn dán L1 tại vị trí thích hợp. 
+    Sau khi in ra kết quả của phương thức được lựa chọn thì sẽ quay về vị trí L1 này.
+7.  Tạo thêm 2 case khác trong phần switch - case.
+    -   Case "a" hoặc "all" sẽ in ra kết quả của cả 3 phương thức.
+    -   Case "exit" sẽ thoát khỏi switch - case, 
+        nếu không có câu lệnh gì sau đó thì sẽ thoát luôn chương trình.
