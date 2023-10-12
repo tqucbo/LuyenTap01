@@ -1,0 +1,1 @@
+1. Định nghĩa đối tượng hoặc cấu trúc Vector 2 chiều có 2 toạ độ là a và b.
