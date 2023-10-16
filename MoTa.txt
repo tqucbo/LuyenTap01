@@ -1,24 +1,52 @@
 LUYỆN TẬP TỔNG HỢP
 
+CHƯƠNG 01. NHẬP MÔN C#
+
 1.  Định nghĩa đối tượng hoặc cấu trúc Vector 2 chiều có 2 toạ độ là a và b.
-2.  Cho người dùng nhập thông tin 1 Vector và in ra màn hình.
-3.  Định nghĩa thêm thuộc tính chỉ số đo góc nằm giữa 2 Vector. Sau đó,  
+    Sau đó cho người dùng nhập thông tin 1 Vector và in ra màn hình.
+2.  Định nghĩa thêm thuộc tính chỉ số đo góc nằm giữa 2 Vector. Sau đó,  
     tạo phương thức tính tổng 2 Vector, hiệu 2 Vector và tích vô hướng của 2 Vector.
-4.  Cho người dùng nhập thông tin 2 Vector v1 và v2, sau đó thực hiện phép tính và in ra màn hình.
-5.  Thay vì xuất kết quả cả 3 phương thức, dùng Switch - Case 
+3.  Cho người dùng nhập thông tin 2 Vector v1 và v2.
+    Sau đó thực hiện phép tính tổng, hiệu và tích vô hướng của 2 Vector này và in ra màn hình.
+4.  Thay vì xuất kết quả cả 3 phương thức, dùng Switch - Case 
     hoặc If - Else để người dùng chọn 1 trong 3 phương thức để xuất ra màn hình.
     Case "default" sẽ hiển thị thông báo không có lựa chọn này.
-6.  Thay vì để chương trình tự ngắt sau khi in ra kết quả của phương thức được lựa chọn,
+5.  Thay vì để chương trình tự ngắt sau khi in ra kết quả của phương thức được lựa chọn,
     đặt nhãn dán L1 tại vị trí thích hợp. 
     Sau khi in ra kết quả của phương thức được lựa chọn thì sẽ quay về vị trí L1 này.
-7.  Tạo thêm 2 case khác trong phần switch - case.
+6.  Tạo thêm 2 case khác trong phần switch - case.
     -   Case "a" hoặc "all" sẽ in ra kết quả của cả 3 phương thức.
     -   Case "exit" sẽ thoát khỏi switch - case, 
         nếu không có câu lệnh gì sau đó thì sẽ thoát luôn chương trình.
-8.  Tạo 1 biến có kiểu dữ liệu delegate chuyên để hiển thị thông báo.
+7.  Tạo 1 biến có kiểu dữ liệu delegate chuyên để hiển thị thông báo.
     Dùng kiểu dữ liệu delegate Action, delegate Func và biểu thức Lambda để viết lại các phương thức
     tính tổng, tính hiệu và tích vô hướng của 2 Vector.
-9.  Thay vì sử dụng hàm tính tổng, hiệu của 2 Vector.
+8.  Thay vì sử dụng hàm tính tổng, hiệu của 2 Vector.
     Thì thiết kế các phép toán sử dụng toán tử cho Vector gồm:
     -   "+" cho phép cộng.
     -   "-" cho phép trừ.
+
+CHƯƠNG 02. C# NÂNG CAO
+
+9.  Thiết kế cho Đối tượng Vector các phương thức mở rộng gồm:
+    -   In ra màn hình toạ độ X.
+    -   In ra màn hình toạ độ Y.
+    -   In ra màn hình Vector.
+    -   In ra màn hình Vector có 2 toạ độ được đảo vị trí cho nhau.
+
+10. Tạo 1 danh sách rỗng có kiểu dữ liệu là Vector, trong đó đã có sẵn 3 Vector là
+    (0,0) cùng 2 Vector đã nhập ở các bài tập trước.
+    -   Thêm vào mảng các Vector khác với số lượng tuỳ ý.
+        Khi muốn thoát thì nhập toạ độ Vector là chữ.
+    -   Tạo Switch - case cho người dùng lựa chọn thực hiện 1 trong 4 phương thức nêu tại Bài 09.
+
+11. Tạo thêm Switch - Case cho người dùng lựa chọn xuất toàn bộ Vector vào 1 tệp tin tên vectors.txt.
+    Cho người dùng biết tệp tin này đang được lưu chính xác ở đâu trên máy.
+    Thử thực hiện thao tác này và kiểm tra kết quả.
+
+12. Thực hiện các truy vấn LINQ:
+    -   Tìm các Vector có toạ độ X là số chẵn, in ra màn hình các Vector này.
+        Sau đó tính tổng toạ độ X.
+    -   Tìm các Vector có toạ độ Y lớn hơn 5, in ra màn hình các Vector này.
+        Sau đó tính giá trị trung bình toạ độ Y của các Vector này.
+    -   In ra màn hình Vector mới có Toạ độ X và Y là 2 giá trị nêu trên.

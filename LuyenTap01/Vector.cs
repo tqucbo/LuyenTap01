@@ -4,7 +4,7 @@ namespace NameSpaceVector
 {
     public delegate void hienThiThongBao(string thongBao);
 
-    class Vector
+    public class Vector
     {
         public double a;
 
@@ -22,12 +22,25 @@ namespace NameSpaceVector
             this.b = 0;
         }
 
-        public void nhapVector()
+        public bool nhapVector()
         {
             Console.WriteLine("Nhap toa do a : ");
-            a = double.Parse(Console.ReadLine());
+            string toaDoA = Console.ReadLine();
             Console.WriteLine("Nhap toa do b : ");
-            b = double.Parse(Console.ReadLine());
+            string toaDoB = Console.ReadLine();
+            try
+            {
+                a = double.Parse(toaDoA);
+                b = double.Parse(toaDoB);
+            }
+            catch
+            {
+                return false;
+            }
+            // a = double.Parse(Console.ReadLine());
+            // Console.WriteLine("Nhap toa do b : ");
+            // b = double.Parse(Console.ReadLine());
+            return true;
         }
 
         // public string xuatVector()
@@ -35,6 +48,8 @@ namespace NameSpaceVector
         //     return $"Vecto co toa do ({a}, {b})";
         // }
         public static void xuatThongTin(string s) => Console.WriteLine(s);
+
+
 
         // public static Vector tinhTong2Vector(Vector v1, Vector v2)
         // {
